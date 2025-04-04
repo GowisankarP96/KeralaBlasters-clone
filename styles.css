@@ -1,0 +1,277 @@
+body{
+    font-family: sans-serif;
+}
+
+
+/*-----------------------------------------------header body section----------------------------------------------*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1 {
+    display: flex;
+    width: 100%;
+    backdrop-filter: blur(50px);
+    margin-top: 20px;
+    align-items: center;    
+}
+.Logo-img
+{
+ width: 50px;
+ margin-left: 80px;
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-weight: 700;
+    margin-left: 100px;
+    
+}
+.nav-bar a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;   
+}
+
+
+/*-----------------------------------------------------upper body section------------------------------------------*/
+
+
+.top-body-img{
+    width: 100%;
+  height: 120vh;
+  background: url(kimages/Banner-pic.jpg) no-repeat center center / cover, rgba(5, 5, 5, 0.7);
+  background-size: cover;
+  background-position: center;
+  position: relative;   
+}
+
+.heading
+{   position: absolute;
+    top: 40vh;
+    left: 10vh;
+}
+
+.heading-content
+{
+ color: white;
+ font-size: 50px;
+ font-weight: 900;
+ width: 800px;
+}
+
+.Read-btn
+{
+    position: absolute;
+    bottom: 42vh;
+    left: 11vh;
+    padding: 10px 20px 10px 20px;
+    background-color: #003087 ;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900px;
+}
+
+/*---------------------------------------------------second layer body section-------------------------------------*/
+
+.section2 {
+    background-color: #003087 ;
+    width: 100%;
+    height: 550px;  
+    margin-top: 40px;
+    color: white;
+}
+
+.text-heading-div
+{
+   padding-top: 8vh;
+   padding-left: 25vh;
+   
+   
+}
+.text-heading
+{
+ margin-bottom: 15px;
+ font-size: 30px;
+}
+.discover-para
+{
+    margin-top: 0;
+    font-size: 16px;
+    color: rgb(180, 171, 171);
+}
+.vedios
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    flex-wrap: wrap; 
+    padding: 20px; 
+}
+
+/*-------------------------------------------------Third layer body section---------------------------------------*/
+
+.Section3{
+color: black;
+width: 100%;
+height: 500px;  
+margin-top: 60px;
+
+}
+
+.section3-div{
+    display: flex;  
+}
+.head-section3
+{
+    width: 450px;
+    margin-left: 35vh;
+}
+.secton3-header
+{
+    color: blue;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.section3-para
+{
+   letter-spacing: 1px;
+   line-height: 25px;
+}
+.key-text
+{
+   margin-top: 40px;
+}
+ul{
+    margin-left: 50px;
+    margin-top: 5px;
+    line-height: 25px;
+}
+.read-btn
+{
+    margin-top: 30px;
+    margin-left: 35px;
+    padding: 10px 20px 10px 20px;
+    background-color: #003087 ;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.yellow-card-img
+{
+    width: 400px;
+    height: 500px;
+    margin-left: 20vh;
+}
+
+
+/*-------------------------------------------Fourth layer body section--------------------------------------------*/
+
+.section4
+{
+ width: 100%;
+ height: 700px;
+ background-color:#003087;
+ margin-top: 40px;
+}
+
+.kbfc-img
+{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.kbfc-text
+{
+    margin-left: 120px;
+    color: #b6b6b6;
+    font-weight: 500;
+}
+.cards-vedios
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+    margin-top: 60px;
+}
+.iframe-sets
+{
+    width: 400px;
+    height: 200px;
+}
+
+/*-------------------------------------------Footer section--------------------------------------------*/
+
+.footer-section
+{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    margin-top: 40px;
+    color: white;
+}
+.left-side-footer
+{
+    margin-left: 50px;
+    width: 450px;
+    margin-top: 15vh;
+    margin-left: 25vh;
+}
+.about-text
+{
+    margin-bottom: 40px;
+}
+.footer-note{
+    margin-bottom: 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #b6b6b6;
+}
+.address
+{
+    margin-bottom: 20px;
+    color: #b6b6b6;
+    font-size: 16px;
+}
+.email
+{
+    color: #b6b6b6;
+    font-size: 16px;
+}
+.social-media-footer
+{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.social-logo
+{
+    width: 25px;
+}
+.footer-div
+{
+    display: flex;
+}
+
+.right-side-footer
+{
+    margin-top: 15vh;
+    margin-left: 30vh;
+}
+.right-side-footer ul{
+   list-style-type:none;
+   line-height: 40px;
+}
+.right-footer-head{
+    padding-left: 45px;
+}
